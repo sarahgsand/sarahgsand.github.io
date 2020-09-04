@@ -14,6 +14,8 @@ body {
   height: 600px;
   background: #ffffff;
   margin: 25px auto;
+  font-family: 'Roboto', sans-serif;
+  font: 18px #5c8a75;
 }
 h1 {
   font-family: 'Comfortaa', cursive;
