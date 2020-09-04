@@ -3,6 +3,9 @@ body {
   text-align: center;
   font-family: 'Roboto', sans-serif;
   font: 18px #5b5c5b;
+#top {
+  height: 100px;
+  background: #5b5c5b;
 }
 #main {
   width: 1000px;
