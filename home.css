@@ -11,7 +11,7 @@ body {
 }
 #main {
   width: 1000px;
-  height: 20000px;
+  height: auto;
   background: #ffffff;
   margin: 25px auto;
 }
