@@ -8,16 +8,12 @@ body {
   background: #5b5c5b;
   margin: 25px auto;
   text-align: center;
-  font-family: 'Comfortaa', cursive;
-  font: 18px #5b5c5b;
 }
 #main {
   width: 1000px;
   height: 600px;
   background: #ffffff;
   margin: 25px auto;
-  font-family: 'Roboto', sans-serif;
-  font: 18px #5b5c5b;
 }
 h1 {
   font-family: 'Comfortaa', cursive;
