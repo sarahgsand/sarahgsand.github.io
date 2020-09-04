@@ -1,6 +1,8 @@
 body {
   background: #a7e1a8;
   text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font: 18px #5b5c5b;
 }
 #main {
   width: 1000px;
@@ -9,16 +11,21 @@ body {
   margin: 25px auto;
   border: 2px #5b5c5b;
   font-family: 'Roboto', sans-serif;
+  font: 18px #5b5c5b;
 }
 h1 {
   font-family: 'Comfortaa', cursive;
+  font: 48px #5c8a75;
 }
 h2 {
   font-family: 'Montserrat', sans-serif;
+  font: 36px #5c8a75;
 }
 h3 {
   font-family: 'Montserrat', sans-serif;
+  font: 28px #65bf96;
 }
 h4 {
   font-family: 'Montserrat', sans-serif;
+  font: 26px #65bf96;
 }
