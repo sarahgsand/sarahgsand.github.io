@@ -4,6 +4,7 @@ body {
   font-family: 'Roboto', sans-serif;
   font: 18px #5b5c5b;
 #top {
+  width: 1000px;
   height: 100px;
   background: #5b5c5b;
   margin: 25px auto;
@@ -16,7 +17,6 @@ body {
   height: 600px;
   background: #ffffff;
   margin: 25px auto;
-  border: 2px #5b5c5b;
   font-family: 'Roboto', sans-serif;
   font: 18px #5b5c5b;
 }
