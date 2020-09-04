@@ -16,11 +16,6 @@ body {
   background: #6c767a;
   margin: 25px auto;
 }
-.inner-container{
-  text-align:center;
-  position: absolute;
-  margin-top: 200px;
-}
 .btn{
   display: inline-block;
   width: 200px;
