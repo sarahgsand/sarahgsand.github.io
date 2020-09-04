@@ -26,10 +26,6 @@ body {
   outline: none;
   text-decoration: none;
 }
-img{
-    max-width:100%;
-    height:auto;
-}
 .btn:hover,.btn:active{
   background-color: #ffffff;
   color: #000;
