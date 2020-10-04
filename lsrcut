@@ -1,0 +1,24 @@
+<html>
+<head>
+  <title>Week 2: Laser Cutting</title> 
+  <link href="home.css" type="text/css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;700&family=Montserrat&family=Roboto:ital@1&display=swap" rel="stylesheet">
+  <style>
+    img { 
+      max-width:70%; 
+      height:auto; 
+    } 
+  </style>
+</head>
+<body>
+  <h1>Laser Cutting</h1> 
+  <div id="desc">
+    <p>This week I laser cut what I planned to be a mini Macintosh cutout. In retrospect, I would not have cut it on acrylic, and I would have cut it on a day when I could cut it a little bigger.</p>
+  </div>
+  <div id="main">
+    <br>
+    <img src="20200911_145355 (1).jpg" alt="Laser cut Macintosh" vspace="20"> <br>
+    <br>
+  </div>
+</body>
+</html>
