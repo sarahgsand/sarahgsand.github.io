@@ -12,31 +12,42 @@
   </head>
 <body>
   <h1>Final Project Model</h1> 
-    <h4>Origami Lunchbox</h4>
+    <h4>Minecraft Axolotl</h4>
   <div id="desc">
-    <p>The idea behind this is that it's a lunch box that can keep your food from getting squished, but it can also fold down flat in your backpack after you use it.</p> 
-    <p>The cylinders sticking out are supposed to be snaps, and the rectangles sticking out the top are supposed to represent those flaps on the lid that seal your food.</p>
+    <p>In my EE 301 class, we practiced programming an RGB LED with an arduino on Tinkercad. It made me want to do something like that in practice with a real arduino vs. a virtual one.</p> 
+    <p> I wanted to make some kind of color-changing lamp, and I also wanted to be able to 3D print it with a custom design.</p>
   </div>
   <div id="main">
     <br>
-    <h4>Fusion 360 Models</h4>
+    <h4>Initial concepts</h4>
+      <p>I initially sketched out different designs for the lamp. I decided on making it look like the new axolotl mob in Minecraft.</p>
     <br>
     <img src="Origami Lunch Box 2 v11(1).png" vspace="20"> <br>
     <br>
     <img src="Origami Lunch Box 2 v11.png" vspace="20"> <br>
     <br>
-    <img src="Origami Lunch Box .png" vspace="20"> <br>
-    <br>
-    <h4>Store Mode</h4>
+    <h4>CAD designs</h4>
+    <p>I modeled the main head and the gills in Fusion 360 and then had them 3D printed. 
+       They were simple designs, so fabricating them by hand wouldn't have been too much of a problem, 
+       but since the design was pixel-based, going the 3D printing route would made it super easy to get 
+      exact square proportions.</p> 
+    <p>The gills were made using just a standard 3D printer, but the head was made using a 3D resin printer so it would be transparent.</p>
     <img src="20200902_202925.jpg" vspace="20"> <br>
     <br>
-    <h4>Eat Mode</h4>
-    <img src="20200902_202910.jpg" vspace="20"> <br>
+    <img src="20200902_202925.jpg" vspace="20"> <br>
     <br>
-    <h4>Collapse Mode</h4>
+    <h4>Arduino Project</h4>
+    <p>I used a sample RGB LED arduino code from SparkFun, but then edited it to have the light only cycle through purple, pink, and red colors.</p> 
+    <p>I also got the code to oscillate forwards and backwards through the RGB values so that the color change would never be abrupt.</p>
+    <p>For anyone doing a similar project, I recommend getting a real Arduino Nano, vs. a cheap knock-off because the initial, cheap nano I tried to use wasn't able to integrate with my computer correctly.</p> 
+    <a class="btn" href="https://www.tinkercad.com/things/83IYX3WkoB9-creation-101-arduino-programming">See the Arduino Code</a>
+    <a class="btn" href="https://www.tinkercad.com/things/83IYX3WkoB9-creation-101-arduino-programming">See the Tinkercad Design</a>
+    <br>
+    <h4>Final Product</h4>
+    <p>Here's how my final project turned out! I painted the lamp using acrylic paint, and then secured things down using hot glue.</p> 
+    <p>I was planning to machine cut the base, but I had to finish my project at home, so I instead repurposed a plastic box that I found.</p> 
     <img src="20200902_203137.jpg" vspace="20"> <br>
     <br>
-    <h4>Wash Mode</h4>
     <img src="20200902_203208.jpg" vspace="20"> <br>
     <br>
   </div>
