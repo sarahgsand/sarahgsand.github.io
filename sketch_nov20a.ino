@@ -236,11 +236,7 @@ void showSpectrum()
 {
 int x;  // define an integer variable called "x"
 
-// Now we'll use a for() loop to make x count from 0 to 767
-// (Note that there's no semicolon after this line!
-// That's because the for() loop will repeat the next
-// "statement", which in this case is everything within
-// the following brackets {} )
+// Sarah edit: Here I limited the for loop to only going through the purple/magenta/red range.
 
 for (x = 660; x < 767; x++)
 
@@ -248,19 +244,16 @@ for (x = 660; x < 767; x++)
 
 {
 showRGB(x);  // Call RGBspectrum() with our new x
-delay(DISPLAY_TIME);   // Delay for 10 ms (1/100th of a second)
+delay(DISPLAY_TIME);
 }
 }
+
+// Sarah edit: I created another for loop with a new variable "y" to run through the colors backwards. 
 
 void spectrumBack()
 {
-int y;  // define an integer variable called "x"
+int y; 
 
-// Now we'll use a for() loop to make x count from 0 to 767
-// (Note that there's no semicolon after this line!
-// That's because the for() loop will repeat the next
-// "statement", which in this case is everything within
-// the following brackets {} )
 
 for (y = 767; y > 660; y--)
 
@@ -268,7 +261,7 @@ for (y = 767; y > 660; y--)
 
 {
 showRGB(y);  // Call RGBspectrum() with our new x
-delay(DISPLAY_TIME);   // Delay for 10 ms (1/100th of a second)
+delay(DISPLAY_TIME);
 }
 }  
 
